@@ -1,0 +1,38 @@
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #FFF000;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #D3FFDB;
+ }
+
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #80FF97;
+}
+
+#nav-list li {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-top: -1px;
+	background-color: #FFFEAC;
+}
+
+#nav-list li:nth-child(1) {
+	margin-top: 0px;
+}
+
+.big-main-container {
+	background-color: #eee;
+	min-height: 1200px;
+}
+
+.big-main-container p {
+	text-indent: 5%;
+	text-align: justify;
+}
